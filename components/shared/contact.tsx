@@ -101,11 +101,11 @@ function Contact() {
               <div className="relative z-10">
                 <div className="flex items-center mb-8">
                   <img
-                    className="w-12 h-12 mr-3"
-                    src="https://framerusercontent.com/images/tDOGAARw0kdQ37aQk0HWXiX9X8.png?scale-down-to=512"
+                    className="rounded-full w-[30px] h-[30px] mr-3"
+                    src="https://img.freepik.com/free-photo/3d-cartoon-character_23-2151021959.jpg?t=st=1744194906~exp=1744198506~hmac=b6ef39eb1100a7b6d674e98ab1d0b03ab66dc25fe47459076857bd94b5c868d2&w=996"
                     alt="icon"
                   />
-                  <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-pink-100">
+                  <h3 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-100 group-hover:text-pink-400 transition-colors duration-300">
                     Let's connect
                   </h3>
                 </div>

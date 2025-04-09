@@ -97,17 +97,23 @@ function HeroSection() {
                           : "opacity-0"
                       }`}
                     >
-                      <video
-                        src="/video/My Upwork introduction video.mp4"
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        className="w-full h-full object-cover cursor-pointer "
-                        // onClick={() => setIsVideoOrImage("isImage")}
-                        onMouseEnter={() => setIsVideoOrImage("isImage")}
-                        onMouseLeave={() => setIsVideoOrImage("isVideo")}
-                      />
+                      <div className="relative w-full h-full">
+                        <iframe
+                          src="https://www.youtube.com/embed/NnuVAiKOoa0?autoplay=1&mute=1&loop=1&playlist=NnuVAiKOoa0&controls=0"
+                          title="YouTube video player"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          className="absolute inset-0 w-full h-full"
+                          onMouseEnter={() => setIsVideoOrImage("isImage")}
+                          onMouseLeave={() => setIsVideoOrImage("isVideo")}
+                          loading="lazy"
+                          style={{
+                            objectFit: "cover",
+                            width: "100%",
+                            height: "100%",
+                          }}
+                        />
+                      </div>
                     </div>
                   ) : (
                     <div
@@ -122,7 +128,6 @@ function HeroSection() {
                         alt="Chinedu Paul"
                         loading="lazy"
                         className="w-full h-full object-cover cursor-pointer"
-                        // onClick={() => setIsVideoOrImage("isVideo")}
                         onMouseEnter={() => setIsVideoOrImage("isVideo")}
                         onMouseLeave={() => setIsVideoOrImage("isImage")}
                       />

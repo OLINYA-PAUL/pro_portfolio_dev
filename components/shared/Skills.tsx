@@ -3,7 +3,10 @@ import SlideIn from "./SlideIn";
 
 function Skills() {
   return (
-    <div className="skills-container px-4 lg:px-8 my-20 overflow-hidden relative">
+    <div
+      className="skills-container px-4 lg:px-8 my-20 overflow-hidden relative"
+      id="about"
+    >
       {/* Gradient background with blur */}
       <div className="absolute inset-0 -z-10">
         <div className="animate-pulse absolute top-20 left-10 w-72 h-72 bg-blue-600 rounded-full filter blur-3xl opacity-20"></div>

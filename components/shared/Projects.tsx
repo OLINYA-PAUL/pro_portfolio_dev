@@ -9,7 +9,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 export const Projects = () => {
   return (
     <SlideIn direction="bottom">
-      <div className="font-sans relative z-10 mt-10">
+      <div className="font-sans relative z-10 mt-10 " id="projects">
         {/* Subtle background gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/10 to-purple-900/5 -z-10 blur-xl"></div>
 
