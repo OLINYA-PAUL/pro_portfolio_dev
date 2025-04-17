@@ -12,24 +12,8 @@ function Contact() {
   const [status, setStatus] = useState({ success: false, message: "" });
   const formRef = useRef<HTMLFormElement>(null);
 
-  const { EMAIL_SERVICE_ID, EMAIL_TEMPLATE_ID, EMAIL_PUBLIC_KEY } = process.env;
-
-  console.log("Email Service ID:", EMAIL_SERVICE_ID);
-  console.log("Email Template ID:", EMAIL_TEMPLATE_ID);
-  console.log("Email Public Key:", EMAIL_PUBLIC_KEY);
-
   const handleSubmitForm = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    // if (!EMAIL_SERVICE_ID || !EMAIL_TEMPLATE_ID || !EMAIL_PUBLIC_KEY) {
-    //   console.error("Missing one or more EmailJS environment variables.");
-    //   setStatus({
-    //     success: false,
-    //     message: "Email configuration error. Please try again later.",
-    //   });
-    //   setLoading(false);
-    //   return;
-    // }
 
     if (!formRef.current) {
       console.error("Form reference is not available");
@@ -41,13 +25,11 @@ function Contact() {
 
     try {
       const result = await emailjs.sendForm(
-        process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID! ?? "service_03oooka", //  "service_03oooka", // "YOUR_SERVICE_ID",
-        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID! ?? "template_71magyn", //  "template_71magyn", // "YOUR_TEMPLATE_ID",
+        process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID!, // "YOUR_SERVICE_ID",
+        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID!, // "YOUR_TEMPLATE_ID",
         formRef.current,
-        process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY! ?? "sHNqvI5P1mrksIcz8" // "sHNqvI5P1mrksIcz8" //"YOUR_PUBLIC_KEY"
+        process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY! //"YOUR_PUBLIC_KEY"
       );
-
-      console.log("Email sent successfully:", result.text);
 
       if (result.text === "OK") {
         setStatus({

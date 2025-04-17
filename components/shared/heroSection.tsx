@@ -6,16 +6,16 @@ import SlideIn from "./SlideIn";
 
 function HeroSection() {
   const [isVideoOrImage, setIsVideoOrImage] = useState<"isVideo" | "isImage">(
-    "isVideo"
+    "isImage"
   );
 
-  useEffect(() => {
-    const timeSwap = setInterval(() => {
-      setIsVideoOrImage((prev) => (prev === "isVideo" ? "isImage" : "isVideo"));
-    }, 6000);
+  // useEffect(() => {
+  //   const timeSwap = setInterval(() => {
+  //     setIsVideoOrImage((prev) => (prev === "isImage" ? "isImage" : "isImage"));
+  //   }, 6000);
 
-    return () => clearInterval(timeSwap);
-  }, [isVideoOrImage]);
+  //   return () => clearInterval(timeSwap);
+  // }, [isVideoOrImage]);
 
   return (
     <SlideIn>

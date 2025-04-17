@@ -19,7 +19,7 @@ export const Projects = () => {
               Amazing project, that will hook your day
             </span>
           </p>
-          <p className="mt-3 font-light text-gray-300 max-w-2xl mx-auto leading-relaxed mt-10">
+          <p className="font-light text-gray-300 max-w-2xl mx-auto leading-relaxed mt-10">
             My work and creativity goes beyond just code. I create beautiful and
             functional web applications that not only look good but also perform
             exceptionally well. My projects are a testament to my dedication to

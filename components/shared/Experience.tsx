@@ -31,9 +31,9 @@ function Experience() {
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
                           {exp.role}
                         </span>
-                        ,
+                        ,{"    "}
                         <Link
-                          href={exp.link}
+                          href={""}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-pink-400 hover:to-purple-500 transition-all duration-300"
@@ -47,15 +47,6 @@ function Experience() {
                           className="ml-0.5 inline-block h-auto w-5 shrink-0"
                         />
                       </h3>
-                      <span className="hidden md:block">
-                        <Link
-                          href={exp.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <ArrowTopRightIcon className="text-gray-100 hover:scale-125 hover:text-pink-400 transition-all duration-300" />
-                        </Link>
-                      </span>
                     </section>
 
                     <h4 className="mt-1 text-white/60 text-sm font-medium mb-4 flex items-center">
@@ -66,7 +57,7 @@ function Experience() {
                     <div className="h-px w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
 
                     <p className="mt-5 text-white/90 text-sm tracking-wide leading-relaxed">
-                      {exp.description1}
+                      {exp.description}
                     </p>
 
                     <ul className="mt-4 flex flex-wrap">

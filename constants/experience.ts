@@ -1,30 +1,32 @@
 export const experiences = [
-
-    {
-        role: "Frontend Developer",
-        duration: "June 2023 - Jan 2025",
-        link: "https://clouddley.com/",
-        company: "@Clouddley ",
-        location: 'https://flagcdn.com/w320/us.png',
-        description1: " I design intuitive user interfaces to enhance the platform's functionality and user experience. I focus on building responsive, performance-optimized designs while ensuring accessibility standards are met. I collaborate closely with cross-functional teams to integrate features seamlessly and maintain a cohesive product vision. My work involves leveraging modern technologies to deliver scalable solutions, improving customer satisfaction and usability.",
-        technologies: ["NextJs", "Tailwind", "Typescript", 'Jest', "Zustand", "Framer Motion", "Custom Css",],
-    },
-    {
-        role: "Frontend Developer",
-        duration: "Jan 2023 - June 2023",
-        link: "https://minderacodeacademy.com/",
-        company: "@Mindera ",
-        location: 'https://flagcdn.com/w320/gb.png',
-        description1: "I created responsive, accessible user interfaces optimized for performance. I embraced agile methodologies to improve teamwork and communication, fostering a more productive development process. I ensured projects were delivered on time by managing tasks and maintaining high-quality standards. This experience greatly enhanced my technical expertise, communication skills, and collaborative abilities.",
-        technologies: ["NextJs", "Tailwind", "CSS", "Javascript", "Context Api", "SEO", "Agile Methodology"],
-    },
-    // {
-    //     role: "Fullstack Developer Intern",
-    //     duration: "July 2021 - Dec 2021",
-    //     link: "https://wildfire.ng/",
-    //     company: "@WildFire ",
-    //     location: 'https://flagcdn.com/w320/ng.png',
-    //     description1: "I Founded and led the development of the platform to address personal challenges i faced as a student at Aptech, now serving 70+ students. Key responsibilities included leading a team of 4, assigning tasks, conducting code reviews, and presenting the platform to students. This experience enhanced my collaborative and leadership skills as I oversaw the frontend and backend integrations of the platform.",
-    //     technologies: ["", "NodeJs", "Javascript", "MongoDB", "REST"],
-    // },
+  {
+    role: " MERN Stack Developer",
+    duration: "Mar 2023 - Present",
+    // link: "https://clouddley.com/",
+    company: "Freelance",
+    location: "https://cdn-icons-png.flaticon.com/128/5468/5468943.png",
+    description:
+      "I develop dynamic and efficient applications using the MERN stack, focusing on both front-end and back-end performance. I ensure seamless integration across devices by prioritizing speed, scalability, and user-centric design. Collaborating with teams, I deliver robust features that align with product goals and optimize user experiences.",
+    technologies: ["Nodejs", "ExpressJs", "React", "Mongodb"],
+  },
+  {
+    role: "Frontend Developer Intern",
+    duration: "Oct 2022 - Jan 2023",
+    // link: "https://clouddley.com/",
+    company: "eConnect Technology",
+    location: "https://cdn-icons-png.flaticon.com/128/5468/5468943.png",
+    description:
+      "I create intuitive and high-performance interfaces that adapt seamlessly across devices. My approach emphasizes usability, speed, and inclusive design principles. Working closely with teams, I deliver features that align with the overall product strategy and drive user satisfaction.",
+    technologies: ["React", "Tailwind", "Typescript", "Radux", "Custom Css"],
+  },
+  {
+    role: "Frontend Developer",
+    duration: "Mar 2024 – Present",
+    // link: "https://minderacodeacademy.com/",
+    company: "Statart IA",
+    location: "https://cdn-icons-png.flaticon.com/128/5468/5468943.png",
+    description:
+      "I developed intuitive and high-performing user interfaces optimized for all devices. By fostering clear communication within the team and managing tasks efficiently, I ensured seamless progress. I prioritized timely deliveries while maintaining superior quality, which enhanced both my technical expertise and collaborative capabilities.",
+    technologies: ["NextJs", "Context Api", "CSS", "Tailwind", "Javascript"],
+  },
 ];
