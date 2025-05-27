@@ -6,6 +6,49 @@ import {
 } from "@heroicons/react/24/outline";
 export const projectData = [
   {
+    title: "Elearning platform",
+    icon: SunIcon,
+    niche: "ECOMMERCE WEBSITE",
+    device: "laptop",
+    description:
+      "An elegantly designed LMS application built to simplify course management. It offers a dedicated admin dashboard for creating courses, managing users with role-based access, and handling secure payments through seamless Stripe integration. Redis caching ensures fast performance and smooth operation.",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Next.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        style: "bg-black",
+      },
+      {
+        name: "Tailwind",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+      {
+        name: "Node.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "Express.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+        style: "bg-gray-100 p-2 rounded-full",
+      },
+      {
+        name: "Postman",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+      },
+      {
+        name: "MongoDB",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      },
+    ],
+    livePreview: "https://elearningapp-weld.vercel.app/",
+    sourceCode: "https://github.com/OLINYA-PAUL/LMS_app_frontend",
+    image: "assets/images/elearning-application.PNG",
+  },
+  {
     title: "Modern E-commerce App",
     icon: SunIcon,
     niche: "ECOMMERCE WEBSITE",
@@ -49,40 +92,40 @@ export const projectData = [
     sourceCode: "https://github.com/OLINYA-PAUL/Eshop-backend_application",
     image: "assets/images/ecommerce_categories_section.PNG",
   },
-  {
-    title: "Prestige Horizons",
-    icon: ShieldCheckIcon,
-    device: "laptop",
-    niche: "ESTATE APP",
-    description:
-      "A cutting-edge real estate platform where users can effortlessly search and rent houses or properties. Prestige Horizons offers a seamless and intuitive experience, connecting buyers and renters with their dream properties.",
-    technologies: [
-      {
-        name: "TypeScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "Vite",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-        style: "bg-black",
-      },
-      {
-        name: "Tailwind",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      },
-      {
-        name: "Postman",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
-      },
-      {
-        name: "MongoDB",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-      },
-    ],
-    livePreview: "https://prestigehorizonsestate.vercel.app/",
-    sourceCode: "https://github.com/OLINYA-PAUL/estate_app_frontend/tree/main",
-    image: "/assets/images/estate_home.PNG",
-  },
+  // {
+  //   title: "Prestige Horizons",
+  //   icon: ShieldCheckIcon,
+  //   device: "laptop",
+  //   niche: "ESTATE APP",
+  //   description:
+  //     "A cutting-edge real estate platform where users can effortlessly search and rent houses or properties. Prestige Horizons offers a seamless and intuitive experience, connecting buyers and renters with their dream properties.",
+  //   technologies: [
+  //     {
+  //       name: "TypeScript",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+  //     },
+  //     {
+  //       name: "Vite",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+  //       style: "bg-black",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+  //     },
+  //     {
+  //       name: "Postman",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+  //     },
+  //   ],
+  //   livePreview: "https://prestigehorizonsestate.vercel.app/",
+  //   sourceCode: "https://github.com/OLINYA-PAUL/estate_app_frontend/tree/main",
+  //   image: "/assets/images/estate_home.PNG",
+  // },
   {
     title: "X-APP",
     icon: QueueListIcon,
